@@ -18,6 +18,15 @@
     color: #fff;
 }
 
+.hoverColorChange {
+    transition: all 0.3s ease;
+  }
+  
+  .hoverColorChange:hover {
+    color: #779CAB; 
+  }
+
+
 .explore {
     position: absolute;
     top: 596px;
@@ -44,12 +53,22 @@
     color:#F5F8F8;
 }
 
+.title-font-color:hover {
+    color: #558285;
+}
+
 .loginClass{
     background: #FFFFFF;
+    color: #558285;
     border-radius: 15px;
     width: 70px;
     height: 37px;
     align-items: center;
+}
+
+.loginClass:hover {
+    background: #779CAB;
+    color: #fff;    
 }
 
 .signupClass{    
@@ -61,6 +80,7 @@
     align-items: center;
 }
 
-.loginColor{
-    color: #558285;
+.signupClass:hover {
+    background: #fff;
+    color: #779CAB;
 }

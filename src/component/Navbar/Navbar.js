@@ -5,6 +5,7 @@ import NearMe from "./svg/NearMe.svg";
 import StartHosting from "./svg/StartHosting.svg";
 import AboutUs from "./svg/AboutUs.svg";
 import Scope from './svg/Scope.svg'
+import HoverClass from "./HoverClass";
 
 class Navbar extends Component {
         constructor(props){
@@ -29,7 +30,6 @@ class Navbar extends Component {
                 this.setState({scrolling: false})
             }
         }
-    
 
     renderSvg(iconName) {
         if (iconName === 'NearMe') {
@@ -54,14 +54,16 @@ class Navbar extends Component {
                         <div className="flex items-center justify-between">
                             <h1 href="#" className="text-gray-600 text-3xl font-bold cursor-pointer"></h1>
                             <ul className="flex space-x-4 text-2xl items-center">
-                                {MenuItems.map((item, index) => (
-                                    <li key={index} className={`flex ${item.liClass}`} >
-                                        {this.renderSvg(item.IconName) && (
-                                            <img src={this.renderSvg(item.IconName)} alt={item.Title} />
-                                        )}
-                                        <a className={`title-font-size ${item.TitleColor}`}>{item.Title}</a>
-                                    </li>
-                                ))}
+                                <HoverClass HoverClassName="hoverColorChange">
+                                    {MenuItems.map((item, index) => (
+                                        <li key={index} className={`flex ${item.liClass}`} >
+                                                {this.renderSvg(item.IconName) && (
+                                                    <img src={this.renderSvg(item.IconName)} alt={item.Title} />
+                                                )}                                            
+                                                    <a className={`title-font-size ${item.TitleColor}`}>{item.Title}</a>                                            
+                                            </li>
+                                    ))}
+                                </HoverClass>
                             </ul>
                         </div>
                     </div>

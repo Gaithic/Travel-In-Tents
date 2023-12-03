@@ -173,7 +173,7 @@ class RecomendedSites extends Component {
                                     <p>Provide a step-by-step guide on the booking process, including selecting dates, choosing a campsite, and completing the reservation.</p>
                                 </div>
                             </div>
-                            <div class="arrow-circle relative mt-12">
+                            <div className="arrow-circle relative mt-12">
                                 <div className="absolute elipse-arrow">
                                     <img src={EllipsArrow} alt="Ellipsis Arrow"/>
                                 </div>
