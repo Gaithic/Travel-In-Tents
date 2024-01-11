@@ -2,6 +2,7 @@ const MenuItems = [
  {
     "Title": "Near Me",
     "Url": "/",
+    "label": "App",
     "IconName": "NearMe",
     "liClass": "cursor-pointer font-bold space-x-2 ",
     "TitleColor":""
@@ -9,6 +10,7 @@ const MenuItems = [
  {
     "Title": "Start Hosting",
     "Url": "/destinations",
+    "label": "Destinations",
     "IconName": "StartHosting",
     "liClass": "cursor-pointer font-bold space-x-2 ",
     "TitleColor":""
@@ -16,6 +18,7 @@ const MenuItems = [
  {
     "Title": "About Us",
     "Url": "/tours",
+    "label": "AboutUs",
     "IconName": "AboutUs",
     "liClass": "cursor-pointer font-bold space-x-2 ",
     "TitleColor":""
@@ -23,6 +26,7 @@ const MenuItems = [
  {
     "Title": "Login",
     "Url": "/login",
+    "label": "Login",
     "IconName": "",
     "liClass": "cursor-pointer font-bold space-x-2 px-4 py-2 rounded-lg shadow-lg loginClass",
     "TitleColor":""
@@ -30,6 +34,7 @@ const MenuItems = [
  {
     "Title": "Sign Up",
     "Url": "/signup",
+    "label": "Signup",
     "IconName": "",
     "liClass": "cursor-pointer font-bold space-x-2  px-4 py-2 rounded-lg shadow-lg signupClass",
     "TitleColor":""

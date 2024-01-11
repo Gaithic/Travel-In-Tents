@@ -1,0 +1,155 @@
+.signup-background {
+  position: relative;
+  margin-top: 15px;
+  width: 100%;
+  min-height: 1000px;
+  background-image: url('./svg/dmytro-matsiuk-z-BXGZbLdS0-unsplash\ 1\ \(1\).svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center;
+  position: relative; 
+}
+
+.signup-header-title{
+  width: 683px;
+  height: 74px;
+  margin-top: 128px;
+  left: 299px;
+  padding: 10px;
+  gap: 10px;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.row.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 97px;
+}
+
+.col-6 {
+  flex: 0 0 calc(50% - 5px);
+  max-width: calc(50% - 5px);
+  cursor: pointer;
+}
+
+.property-class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+
+}
+
+.property-class img {
+  max-width: 100%;
+}
+
+.property-class p {
+  margin: 0;
+}
+
+.property-class{
+  width: 191px;
+  height: 121px;
+  top: 297px;
+  left: 411px;
+  padding: 20px, 25px, 20px, 25px;
+  border-radius: 15px;
+  gap: 10px;    
+  background: #FFFFFF;
+}
+
+.property-class .second-image {
+  display: none;
+}
+
+.property-class:hover .first-image {
+  display: none;
+}
+
+.property-class:hover{
+  background: rgb(0,37,40);
+  color: #FFFFFF;
+}
+
+.property-class:hover .second-image {
+  display: block;
+}
+
+
+.property-class .wandered-second {
+  display: none;
+}
+
+.property-class:hover .wandered-frist {
+  display: none;
+}
+
+.property-class:hover{
+  background: rgb(0,37,40);
+  color: #FFFFFF;
+}
+
+.property-class:hover .wandered-second {
+  display: block;
+}
+
+.signup-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px 0; 
+}
+
+
+
+.wander-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background: #E2EAEA;
+  padding: 20px;
+}
+
+
+.wander-form {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wander-form input,
+.wander-form label,
+.wander-form button {
+  width: 100%;
+}
+
+.copyright-dialog {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #808080;
+  font-size: 12px;
+}
+
+
+

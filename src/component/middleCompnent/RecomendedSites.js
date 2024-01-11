@@ -20,7 +20,7 @@ class RecomendedSites extends Component {
                     <h1 className="camp-title">Recomended Camp Sites</h1>
                     <div className="filter">
                         <h1>Filter</h1>
-                        <img src={Arrow}/>
+                        <img src={Arrow} alt="arrow"/>
                     </div>
                 </div>
 

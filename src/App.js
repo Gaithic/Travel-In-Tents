@@ -1,17 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './component/Navbar/Navbar';
-import Services from './component/middleCompnent/Services';
-import Footer from './component/Footer.js/Footer';
-import RecomendedSites from './component/middleCompnent/RecomendedSites';
+import { Route, Routes } from 'react-router-dom';
+import MainComponent from './component/MainComponent/MainComponent';
+import { EmailView, SignupView, UserView, SettingPassword} from './component/Signup/SignupComponent';
 
 function App() {
+
   return (
     <div className="App">
-     <Navbar/>
-     <Services/>
-     <RecomendedSites/>
-     <Footer/>
+      <div>
+        <Routes>
+          <Route path="/" element={<MainComponent/>} />
+          <Route path="/email" element={<EmailView/>}/>
+          <Route path="/signup" element={<SignupView/>}/>
+          <Route path='/user-info' element={<UserView/>}/>
+          <Route path='/setting-password' element={<SettingPassword/>}/>
+        </Routes>
+      </div>
     </div>
   );
 }
