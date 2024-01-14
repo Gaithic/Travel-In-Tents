@@ -58,13 +58,13 @@ const Navbar = () => {
                 <div className="container mx-auto">
                     <div className="flex items-center justify-between">
                         <div className="text-white cursor-pointer logo-headig flex items-center">
-                            {appUrl !== currentUrl && (
+                            {/* {appUrl !== currentUrl && ( */}
                                 <HandleBack />
-                            )}
+                            {/* )} */}
                             <span className="whitespace-nowrap font-semibold text-xl">travelintents</span>
                         </div>
 
-                        {appUrl === currentUrl && (
+                        {/* {appUrl === currentUrl && ( */}
                             <ul className="flex space-x-4 text-2xl items-center">
                                 <HoverClass HoverClassName="hoverColorChange">
                                     {MenuItems.map((item, index) => (
@@ -77,7 +77,7 @@ const Navbar = () => {
                                     ))}
                                 </HoverClass>
                             </ul>
-                        )}
+                        {/* )} */}
 
                     </div>
                 </div>
