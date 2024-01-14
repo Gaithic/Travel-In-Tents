@@ -55,7 +55,7 @@
             const appUrl =  appProtocol+'//'+hostName+':'+portNumber+'/';
             
             if(appUrl !== currentUrl){
-                navbarBackground = '#003C40';
+                navbarBackground = 'transparent';
             }
 
             console.log(appUrl, currentUrl, 'there is a url');
