@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Machryana from './svg/MachRayana.svg';
+import Machryana from './svg/Machrayana.png';
 import Heart from './svg/Heart.svg';
 import Arrow from './svg/arrow.svg';
 import './main.css';
