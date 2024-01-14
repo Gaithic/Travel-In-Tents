@@ -58,6 +58,7 @@
                 navbarBackground = '#003C40';
             }
 
+            console.log(appUrl, currentUrl, 'there is a url');
             return (
                 <>
                     <nav style={{ backgroundColor:  navbarBackground , zIndex: 100 }} className="w-full px-4 py-4 text-sm fixed top-0 left-1/2 transform -translate-x-1/2 text-white">
@@ -66,7 +67,6 @@
                                 <div className="text-white cursor-pointer logo-headig flex items-center">
                                 {appUrl !== currentUrl && (
                                     <HandleBack/>
-                                        // <img className="h-10 w-10 mr-2" src={imageBackbutton} alt="back-image"/>
                                 )}
                                     <span className="whitespace-nowrap font-semibold text-xl">travelintents</span>
                                 </div>

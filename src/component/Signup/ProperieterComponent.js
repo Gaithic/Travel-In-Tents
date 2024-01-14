@@ -73,7 +73,7 @@ const EmailView = () => {
                 </div>
                 <div className="w-293 pl-15 pr-120 py-3 top-284 absolute bg-white rounded-15 justify-start items-center gap-2.5 inline-flex">
                 <input
-                    className="text-cyan-950 px-4 text-base font-light font-Inter w-full focus:outline-none"
+                    className="text-customCyan px-4 text-base font-light font-Inter w-full focus:outline-none"
                     placeholder="Email"
                     name="email"
                     value={email.email}
@@ -82,7 +82,7 @@ const EmailView = () => {
                 />
                 </div>
                 
-                <div onClick={handleOnClick} className="w-293 px-120 py-3 top-357 absolute cursor-pointer bg-cyan-950 rounded-15 justify-center items-center gap-2.5 inline-flex">
+                <div onClick={handleOnClick} className="w-293 px-120 py-3 top-357 absolute cursor-pointer bg-customCyan rounded-15 justify-center items-center gap-2.5 inline-flex">
                     <button  className="text-white px-4 text-base font-normal font-Inter">Confirm Spot</button>
                 </div>
 
@@ -139,7 +139,7 @@ const UserView = () => {
                 </div>
                 <div className="w-293 pl-15 pr-120 py-3 top-284 absolute bg-white rounded-15 justify-start items-center gap-2.5 inline-flex">
                 <input
-                    className="text-cyan-950 px-4 text-base font-light font-Inter w-full focus:outline-none"
+                    className="text-customCyan px-4 text-base font-light font-Inter w-full focus:outline-none"
                     placeholder="First Name"
                     name="firstName"
                     value={formData.firstName}
@@ -149,7 +149,7 @@ const UserView = () => {
                 </div>
                 <div className="w-293 pl-15 pr-120 py-3  top-342 absolute bg-white rounded-15 justify-start items-center gap-2.5 inline-flex">
                 <input
-                    className="text-cyan-950 px-4 text-base font-light font-Inter w-full focus:outline-none"
+                    className="text-customCyan px-4 text-base font-light font-Inter w-full focus:outline-none"
                     name="lastName"
                     placeholder="Last Name"
                     value={formData.lastName}
@@ -159,7 +159,7 @@ const UserView = () => {
                 </div>
                 <div className="w-293 pl-15 pr-120 py-3 top-400 absolute bg-white rounded-15 justify-start items-center gap-2.5 inline-flex">
                 <input
-                    className="text-cyan-950 px-4 text-base font-light font-Inter w-full focus:outline-none"
+                    className="text-customCyan px-4 text-base font-light font-Inter w-full focus:outline-none"
                     name="contact"
                     placeholder="Your Wilderness Contact"
                     value={formData.contact}
@@ -168,7 +168,7 @@ const UserView = () => {
                     />
                 </div>
                 
-                <div onClick={handleOnClick} className="w-293 px-120 py-3 top-473 absolute cursor-pointer bg-cyan-950 rounded-15 justify-center items-center gap-2.5 inline-flex">
+                <div onClick={handleOnClick} className="w-293 px-120 py-3 top-473 absolute cursor-pointer bg-customCyan rounded-15 justify-center items-center gap-2.5 inline-flex">
                     <button  className="text-white px-4 text-base font-normal font-Inter">Next</button>
                 </div>
                 <div className="p-2.5  top-521 mt-4 absolute justify-center items-center gap-2.5 inline-flex">
@@ -216,7 +216,7 @@ const SettingPassword = () => {
             </div>
             <div className="w-293 pl-15 pr-120 py-3 top-284 absolute bg-white rounded-15 justify-start items-center gap-2.5 inline-flex">
             <input
-                  className="text-cyan-950 px-4 text-base font-light font-Inter w-full focus:outline-none"
+                  className="text-customCyan px-4 text-base font-light font-Inter w-full focus:outline-none"
                 placeholder="Create Password"
                 type="password"
                 name="password"
@@ -227,7 +227,7 @@ const SettingPassword = () => {
             </div>
             <div className="w-293 pl-15 pr-120 py-3  top-342 absolute bg-white rounded-15 justify-start items-center gap-2.5 inline-flex">
             <input
-                className="text-cyan-950 px-4 text-base font-light font-Inter w-full focus:outline-none"
+                className="text-customCyan px-4 text-base font-light font-Inter w-full focus:outline-none"
                 name="confirmPassword"
                 placeholder="Confirm Password"
                 type="password"
@@ -236,7 +236,7 @@ const SettingPassword = () => {
                 required
                 />
             </div>
-            <div onClick={handleOnSubmit}  className="w-293 cursor-pointer px-120 py-3 top-420 absolute bg-cyan-950 rounded-15 justify-center items-center gap-2.5 inline-flex">
+            <div onClick={handleOnSubmit}  className="w-293 cursor-pointer px-120 py-3 top-420 absolute bg-customCyan rounded-15 justify-center items-center gap-2.5 inline-flex">
                 <div className="text-white px-4 text-base font-normal font-Inter">Next</div>
             </div>
             <div className="p-2.5  top-521 mt-4 absolute justify-center items-center gap-2.5 inline-flex">

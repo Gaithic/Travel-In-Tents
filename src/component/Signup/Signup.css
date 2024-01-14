@@ -12,7 +12,18 @@
   flex-direction: column;
   justify-content: flex-start; 
   align-items: center;
-  position: relative; 
+}
+
+.wander-signup{
+  position: relative;
+  background-color: #E2EAEA;
+  width: 100%;
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .signup-header-title{

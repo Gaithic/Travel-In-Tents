@@ -1,6 +1,6 @@
 
 import { useNavigate } from 'react-router-dom/dist';
-import imageBackbutton from './img/backbutton.svg';
+import BackArrow from './img/backbutton.svg';
 const HandleBack = () => {
     const navigate = useNavigate();
     const handleBackButton = () => {
@@ -9,7 +9,7 @@ const HandleBack = () => {
     return (
         <>
             <div onClick={handleBackButton}>
-                <img className="h-10 w-10 mr-2" src={imageBackbutton} alt="back-image"/>
+                <img className="h-10 w-10 mr-2" src={BackArrow} alt="back-arrow"/>
             </div>
         </>
     )
