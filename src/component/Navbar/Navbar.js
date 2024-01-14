@@ -25,7 +25,7 @@ const Navbar = () => {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, []); // Empty dependency array to run the effect only once on mount
+    }, []);
 
     const renderSvg = (iconName) => {
         switch (iconName) {
@@ -51,8 +51,6 @@ const Navbar = () => {
             setScrolling(true);
         }
     }, [appUrl, currentUrl]);
-
-    console.log(appUrl, currentUrl, 'there is a');
 
     return (
         <>
