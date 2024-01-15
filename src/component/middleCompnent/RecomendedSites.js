@@ -5,12 +5,12 @@ import Arrow from './svg/arrow.svg';
 import './main.css';
 import Start from './svg/Star.svg';
 import RightArrow from './svg/RightArrow.svg';
-import Aboutus from './svg/Aboutus.svg';
-import ReviewImage from './svg/ReviewImage.svg';
+import Aboutus from './svg/Aboutus.png';
+import ReviewImage from './svg/ReviewImage.png';
 import EllipsArrow from './svg/EllipsArrow.svg';
 import Ellipse from './svg/Ellipse.svg';
-import SecondImage from './svg/SecondImage.svg';
-import ThirdImage from './svg/ThirdImage.svg';
+import SecondImage from './svg/Secondmage.png';
+import ThirdImage from './svg/ThirdImage.png';
 
 class RecomendedSites extends Component {
     render() {
