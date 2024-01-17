@@ -27,9 +27,9 @@ class RecomendedSites extends Component {
                 <div className="camp-container p-6">
                     <div className="card relative">
                         <div className="card-heart-div mt-2 absolute">
-                            <img className="w-full camp-image" src={Heart} alt="Heart Placeholder" />
+                            <img className="w-full camp-image" src={Heart} alt="Heart-Placeholder" />
                         </div>
-                        <img className="w-full" src={Machryana} alt="Machryana Placeholder" />
+                        <img className="w-full" src={Machryana} alt="Machryana-Placeholder" />
                         <div className="card-body mt-3">
                         <div className="flex justify-start mt-3">
                             <h1 className="dist-name">Shimla Himachal</h1>
@@ -55,9 +55,9 @@ class RecomendedSites extends Component {
 
                     <div className="card relative">
                         <div className="card-heart-div mt-2 absolute">
-                            <img className="w-full camp-image" src={Heart} alt="Heart Placeholder" />
+                            <img className="w-full camp-image" src={Heart} alt="Heart-Placeholder" />
                         </div>
-                        <img className="w-full" src={SecondImage} alt="Machryana Placeholder" />
+                        <img className="w-full" src={SecondImage} alt="Machryana-Placeholder" />
                         <div className="card-body mt-3">
                         <div className="flex justify-start mt-3">
                             <h1 className="dist-name">Shimla Himachal</h1>
@@ -82,9 +82,9 @@ class RecomendedSites extends Component {
                     </div>
                     <div className="card relative">
                         <div className="card-heart-div mt-2 absolute">
-                            <img className="w-full camp-image" src={Heart} alt="Heart Placeholder" />
+                            <img className="w-full camp-image" src={Heart} alt="Heart-Placeholder" />
                         </div>
-                        <img className="w-full" src={ThirdImage} alt="Machryana Placeholder" />
+                        <img className="w-full" src={ThirdImage} alt="Machryana-Placeholder" />
                         <div className="card-body mt-3">
                         <div className="flex justify-start mt-3">
                             <h1 className="dist-name">Shimla Himachal</h1>
@@ -115,7 +115,7 @@ class RecomendedSites extends Component {
                             <h1>more camp sites</h1>
                         </div>
                         <div>
-                            <img src={RightArrow} alt="" />
+                            <img src={RightArrow} alt="right-arrow" />
                         </div>
                     </button>
                 </div>
@@ -175,7 +175,7 @@ class RecomendedSites extends Component {
                             </div>
                             <div className="arrow-circle relative mt-12">
                                 <div className="absolute elipse-arrow">
-                                    <img src={EllipsArrow} alt="Ellipsis Arrow"/>
+                                    <img src={EllipsArrow} alt="Ellipsis-Arrow"/>
                                 </div>
                                 <img src={Ellipse} alt="Ellipse" className="elipse w-full"/>
                             </div>
