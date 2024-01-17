@@ -10,7 +10,7 @@ import HandleBack from "./HandleBack";
 
 const Navbar = () => {
     const [scrolling, setScrolling] = useState(false);
-    const [currentUrl, setCurrentUrl] = useState(window.location.href);
+    const [currentUrl] = useState(window.location.href);
 
     const handleScroll = () => {
         if (window.scrollY > 0) {
