@@ -1,6 +1,8 @@
 import Navbar from "../Navbar/Navbar"
 import './Signup.css';
-
+import Facebook from './svg/Facebook.svg';
+import Google from './svg/Google.svg';
+import OTP from './svg/Otp.svg';
 
 const   WanderSignupView = () => {
     return (
@@ -20,6 +22,9 @@ const   WanderSignupView = () => {
                     required
                 />
             </div>
+            <div className="firstName-error">
+
+            </div>
             <div className="w-293 pl-15 pr-120 py-3 top-285 absolute bg-white rounded-15 justify-start items-center gap-2.5 inline-flex">
                 <input
                     className="text-customCyan px-4 text-base font-light font-Inter w-full focus:outline-none"
@@ -29,6 +34,9 @@ const   WanderSignupView = () => {
                     onChange=''
                     required
                 />
+            </div>
+            <div className="lastName-error">
+
             </div>
             <div className="w-293 pl-15 pr-120 py-3 top-343 absolute bg-white rounded-15 justify-start items-center gap-2.5 inline-flex">
                 <input
@@ -40,23 +48,32 @@ const   WanderSignupView = () => {
                     required
                 />
             </div>
+            <div className="email-error">
+
+            </div>
             <div className="w-293 px-120 py-3 top-431 absolute bg-customCyan rounded-15 justify-center items-center gap-2.5 inline-flex">
                 <button className="text-white text-base font-normal font-Inter">Continue with email</button>
             </div>
-            <div className="w-94 h-auto p-5 left-630 top-541 absolute bg-white rounded-15 shadow flex-col justify-center items-center gap-2.5 inline-flex">
-                <div className="w-19.60 h-5 relative">
+            
+            <div className="flex top-541 absolute gap-10">
+                <div className="w-94 h-auto p-5 bg-white rounded-15 shadow flex-col justify-center items-center gap-2.5 inline-flex">
+                    <div className="w-19.60 h-5 relative">
+                        <img src={Facebook} alt="facebook"/>
+                    </div>
+                    <button className="text-neutral-700 text-base font-light font-Inter">Facebook</button>
                 </div>
-                <button className="text-neutral-700 text-base font-light font-Inter">Facebook</button>
-            </div>
-            <div className="w-94 h-auto p-5 left-760 top-541 absolute bg-white rounded-15 shadow flex-col justify-center items-center gap-2.5 inline-flex">
-                <div className="w-19.60 h-5 relative">
+                <div className="w-94 h-auto p-5 bg-white rounded-15 shadow flex-col justify-center items-center gap-2.5 inline-flex">
+                    <div className="w-19.60 h-5 relative">
+                        <img src={Google} alt="Google"/>
+                    </div>
+                    <button className="text-neutral-700 text-base font-light font-Inter">Google</button>
                 </div>
-                <button className="text-neutral-700 text-base font-light font-Inter">Facebook</button>
-            </div>
-            <div className="w-94 h-auto p-5 left-890 top-541 absolute bg-white rounded-15 shadow flex-col justify-center items-center gap-2.5 inline-flex">
-                <div className="w-19.60 h-5 relative">
+                <div className="w-94 h-auto p-5 bg-white rounded-15 shadow flex-col justify-center items-center gap-2.5 inline-flex">
+                    <div className="w-19.60 h-5 relative">
+                        <img src={OTP} alt="OTP"/>
+                    </div>
+                    <button className="text-neutral-700 text-base font-light font-Inter">OTP</button>
                 </div>
-                <button className="text-neutral-700 text-base font-light font-Inter">Facebook</button>
             </div>
             
             <div className="top-653 absolute text-black text-base font-light font-Inter">more ways to sign in</div>

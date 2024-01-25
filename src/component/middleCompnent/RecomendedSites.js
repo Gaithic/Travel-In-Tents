@@ -27,9 +27,9 @@ class RecomendedSites extends Component {
                 <div className="camp-container p-6">
                     <div className="card relative">
                         <div className="card-heart-div mt-2 absolute">
-                            <img className="w-full camp-image" src={Heart} alt="Heart-Placeholder" />
+                            <img className="w-full camp-image" src={Heart} alt="heart-logo" />
                         </div>
-                        <img className="w-full" src={Machryana} alt="Machryana-Placeholder" />
+                        <img className="w-full" src={Machryana} alt="campside-logo" />
                         <div className="card-body mt-3">
                         <div className="flex justify-start mt-3">
                             <h1 className="dist-name">Shimla Himachal</h1>
@@ -43,11 +43,11 @@ class RecomendedSites extends Component {
                         </div>
                         <div className="card-footer">
                         <div className="flex justify-start mb-3 card-rating">
-                            <img className="card-footer-rating" src={Start} alt="Star" />
-                            <img className="card-footer-rating" src={Start} alt="Star" />
-                            <img className="card-footer-rating" src={Start} alt="Star" />
-                            <img className="card-footer-rating" src={Start} alt="Star" />
-                            <img className="card-footer-rating" src={Start} alt="Star" />
+                            <img className="card-footer-rating" src={Start} alt="star-logo" />
+                            <img className="card-footer-rating" src={Start} alt="star-logo" />
+                            <img className="card-footer-rating" src={Start} alt="star-logo" />
+                            <img className="card-footer-rating" src={Start} alt="star-logo" />
+                            <img className="card-footer-rating" src={Start} alt="star-logo" />
                         </div>
                         <h2 className="card-footer-rate">59999/-</h2>
                         </div>
@@ -55,9 +55,9 @@ class RecomendedSites extends Component {
 
                     <div className="card relative">
                         <div className="card-heart-div mt-2 absolute">
-                            <img className="w-full camp-image" src={Heart} alt="Heart-Placeholder" />
+                            <img className="w-full camp-image" src={Heart} alt="heart-logo" />
                         </div>
-                        <img className="w-full" src={SecondImage} alt="Machryana-Placeholder" />
+                        <img className="w-full" src={SecondImage} alt="campside-logo" />
                         <div className="card-body mt-3">
                         <div className="flex justify-start mt-3">
                             <h1 className="dist-name">Shimla Himachal</h1>
@@ -71,20 +71,20 @@ class RecomendedSites extends Component {
                         </div>
                         <div className="card-footer">
                             <div className="flex justify-start mb-3 card-rating">
-                                <img className="card-footer-rating" src={Start} alt="Star" />
-                                <img className="card-footer-rating" src={Start} alt="Star" />
-                                <img className="card-footer-rating" src={Start} alt="Star" />
-                                <img className="card-footer-rating" src={Start} alt="Star" />
-                                <img className="card-footer-rating" src={Start} alt="Star" />
+                                <img className="card-footer-rating" src={Start} alt="star-logo" />
+                                <img className="card-footer-rating" src={Start} alt="star-logo" />
+                                <img className="card-footer-rating" src={Start} alt="star-logo" />
+                                <img className="card-footer-rating" src={Start} alt="star-logo" />
+                                <img className="card-footer-rating" src={Start} alt="star-logo" />
                             </div>
                             <h2 className="card-footer-rate">89999/-</h2>
                         </div>
                     </div>
                     <div className="card relative">
                         <div className="card-heart-div mt-2 absolute">
-                            <img className="w-full camp-image" src={Heart} alt="Heart-Placeholder" />
+                            <img className="w-full camp-image" src={Heart} alt="heart-logo" />
                         </div>
-                        <img className="w-full" src={ThirdImage} alt="Machryana-Placeholder" />
+                        <img className="w-full" src={ThirdImage} alt="campside-logo" />
                         <div className="card-body mt-3">
                         <div className="flex justify-start mt-3">
                             <h1 className="dist-name">Shimla Himachal</h1>
@@ -98,11 +98,11 @@ class RecomendedSites extends Component {
                         </div>
                         <div className="card-footer">
                         <div className="flex justify-start mb-3 card-rating">
-                            <img className="card-footer-rating" src={Start} alt="Star" />
-                            <img className="card-footer-rating" src={Start} alt="Star" />
-                            <img className="card-footer-rating" src={Start} alt="Star" />
-                            <img className="card-footer-rating" src={Start} alt="Star" />
-                            <img className="card-footer-rating" src={Start} alt="Star" />
+                            <img className="card-footer-rating" src={Start} alt="star-logo" />
+                            <img className="card-footer-rating" src={Start} alt="star-logo" />
+                            <img className="card-footer-rating" src={Start} alt="star-logo" />
+                            <img className="card-footer-rating" src={Start} alt="star-logo" />
+                            <img className="card-footer-rating" src={Start} alt="star-logo" />
                         </div>
                         <h2 className="card-footer-rate">99999/-</h2>
                         </div>
@@ -125,17 +125,17 @@ class RecomendedSites extends Component {
                         <div className="about-text">
                             <h1>Your Gateway to Unforgettable Outdoor Escapes!</h1>
                             <p>TravelInTents is your one-stop destination for all things camping. Whether you're a seasoned outdoors enthusiast or a first-time camper, we provide a comprehensive platform to plan and book your perfect camping adventure.</p>
-                            <button> About Us <span><img src={RightArrow}/></span></button>
+                            <button> About Us <span><img src={RightArrow} alt="right-arrow"/></span></button>
                         </div>
                         <div className="">
-                            <img src={Aboutus}/>
+                            <img src={Aboutus} alt="aboutus"/>
                         </div>
                     </div>    
                 </div>
                 
                 <div className="w-full review">
                     <div className="review-image">
-                        <img src={ReviewImage}/>
+                        <img src={ReviewImage} alt="review-logo"/>
                     </div>
                     <div className="review">
                         <div className="review-text">
@@ -144,10 +144,10 @@ class RecomendedSites extends Component {
                             <p>My hiking trip organized through this website was an unforgettable adventure. The landscapes were stunning, and the itinerary was well-planned. The only reason I'm not giving it a perfect score is that some parts of the trail were a bit challenging for beginners. Nonetheless, the overall experience was fantastic.</p>
                             <div className="flex justify-start justify-between">
                                 <div className="flex justify-start mb-3">
-                                    <img className="review-footer-rate" src={Start} alt="Star" />
-                                    <img className="review-footer-rate" src={Start} alt="Star" />
-                                    <img className="review-footer-rate" src={Start} alt="Star" />
-                                    <img className="review-footer-rate" src={Start} alt="Star" />
+                                    <img className="review-footer-rate" src={Start} alt="star-logo" />
+                                    <img className="review-footer-rate" src={Start} alt="star-logo" />
+                                    <img className="review-footer-rate" src={Start} alt="star-logo" />
+                                    <img className="review-footer-rate" src={Start} alt="star-logo" />
                                 </div>
                                 <h2 className="">15-6-2023</h2>
                             </div>

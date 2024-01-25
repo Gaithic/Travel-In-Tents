@@ -1,6 +1,6 @@
 .header{
     width: 100%;
-    height: 635px;
+    height: 470px;
     padding:10px;    
     background-image: url('./img/cover-image.png');
     background-size: cover;
@@ -29,7 +29,7 @@
 
 .explore {
     position: absolute;
-    top: 596px;
+    top: 450px;
     width: 407.53px;
     height: 60px;
     border-radius: 15px;

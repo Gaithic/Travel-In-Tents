@@ -6,12 +6,11 @@ import wanderer from  './svg/Frame (1).svg';
 import './Signup.css';
 import Navbar from '../Navbar/Navbar';
 import { useState } from 'react';
-
+import http  from '../../http';
 
 
 
 const SignupView = () => {
-    const backgroundColor = '#003C40';
     return(
         <>
         <div className='signup-background'>
@@ -40,7 +39,7 @@ const SignupView = () => {
             <p>© [2023] . travelintents All Rights Reserved.</p>
             </div>
         </div>
-        <Navbar backgroundColor={backgroundColor}/>
+        <Navbar backgroundColor='red'/>
         </>
     )
 } 
@@ -55,8 +54,15 @@ const EmailView = () => {
     const onChangeEventHandler = (e) => {
         setEmail({...email, [e.target.name]:[e.target.value]});
     }
-    const handleOnClick = () => {
-        navigate('/user-info');
+    const handleOnClick = (e) => {
+        http.post('api/signup', {email}).then(res => {
+            console.log(res, 'hrre is response');
+        }).catch(error => {
+
+        });
+        console.log('here u clicked');
+        console.log(email, 'event is here');
+        // navigate('/user-info');
     }
     
     return(
